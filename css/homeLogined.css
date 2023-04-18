@@ -464,8 +464,16 @@ ul {
     position: absolute;
     width: 270px;
     object-fit: scale-down;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 250px;
+}
+
+.image19 {
+    position: absolute;
+    width: 350px;
+    object-fit: scale-down;
+    margin-top: 20px;
+    margin-left: 185px;
 }
 
 .item3 .study .row {
