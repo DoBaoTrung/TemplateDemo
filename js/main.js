@@ -45,7 +45,7 @@ function check() {
 
     if ((loginid.value != 0  && password.value == storedPassword) || (loginid.value == storeTel && password.value == storedPassword)) {
         alert('Đăng nhập thành công');
-        window.location = "https://dobaotrung.github.io/TemplateDemo/homeLogined.html";
+        window.location.href = "homeLogined.html";
     } else if (loginid.value.length == 0 && password.value.length == 0) {
         alert('Vui lòng nhập đầy đủ');
     } else if (loginid.value.length == 0) {
