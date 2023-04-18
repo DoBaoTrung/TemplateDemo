@@ -301,7 +301,6 @@ ul {
 
 .item1 {
     grid-area: 1 / 1 / 2 / 2;
-    /* background-color: #C32270; */
     position: relative;
 }
 
@@ -325,12 +324,13 @@ ul {
   
 .item2 {
     grid-area: 1 / 2 / 2 / 3;
-    background-color: #dda4b8;
+    background-color: #eaabc1;
+    position: relative;
 }
 
 .item3 {
     grid-area: 2 / 1 / 3 / 2;
-    background-color: #dda4b8;
+    background-color: #eaabc1;
 }
 
 .item4 {
@@ -359,16 +359,61 @@ ul {
 
 .grid-container {
     display: grid;
-    /* grid-auto-columns: 50px; */
     background-color: #c6c9cc;
-    /* padding: 10px; */
-
 }
 
 .grid-container > div {
     text-align: center;
     padding: 270px;
     font-size: 30px;
+}
+
+.study {
+    width: 50px;
+    color: #C32270;
+    margin-left: -180px;
+    margin-top: -180px;
+    text-align: start;
+}
+
+.custom-study {
+    line-height: 65px;
+}
+
+.text-study {
+    font-size: 15px;
+    line-height: 19px;
+    color: black;
+}
+
+.item2 .study .row {
+    width: 400px;
+}
+
+.custom-button {
+    border: 2px solid white;
+    background-color: #C32270;
+    border-radius: 10px;
+    width: 135px;
+    font-size: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.image16-row .row {
+    height: 100x;   
+}
+
+.image16 {
+    position: absolute;
+    width: 270px;
+    object-fit: scale-down;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+.item3 .study .row {
+    width: 400px;
 }
 
 
