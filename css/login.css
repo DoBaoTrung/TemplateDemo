@@ -8,77 +8,75 @@ body {
     height: 100%;
 }
 
-.login-form .login-left-side .image1 {
+.image1, .image2 {
     position: absolute;
-    width: 1440px;
-    height: 1024px;
-    left: 0px;
-    top: 0px;
+    display: block;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    width: 825px;
+    height: 750px;
 }
 
-.login-form .login-left-side .image2 {
-    position: absolute;
-    width: 1440px;
-    height: 1024px;
-    left: 0px;
-    top: 0px;
-}
-
-.login-form .login-left-side .image4 {
+.image4 {
     position: absolute;
     width: 432px;
     height: 105px;
-    left: 13.06%;
-    top: 47%;
+    left: 13%;
+    top: 40%;
 }
 
-.login-form .login-right-side {
+.col-md-5 {
     position: absolute;
-    width: 863px;
-    height: 1024px;
-    left: 825px;
-    top: 0px;
-    background: white;
+    right: 0;
+    top: 0;
+    height: 750px;
 }
 
-.login-right-side .login-back > a {
+.logo-login-back {
+    margin-left: -26px;
+    margin-right: 12px;
+}
+
+.text-login-back {
     position: absolute;
     text-decoration: none;
     left: 4%;
     right: 8.33%;
     top: 6%;
-    bottom: 8.33%;
     color: #C32270;
     font-size: 20px;
-    font-weight: 900;
     line-height: 25px;
 }
 
-.login-right-side .login-back > a:hover {
+.text-login-back:hover {
     color: steelblue;
 }
 
-.login-right-side .title-login {
+.logo-title-login {
     position: absolute;
-    width: 428px;
+    width: 450px;
     height: 104px;
-    left: 225px;
-    top: 194px;
+    left: 65px;
+    top: 140px
 }
 
-.title-text-login {
+.text-title-login {
     position: absolute;
     font-size: 18px;
-    margin-top: 20px;
-    margin-left: 70px;
+    line-height: 22px;
+    width: 338px;
+    height: 23px;
+    left: 140px;
+    top: 275px;
 }
 
 input[type=text] {
     position: absolute;
-    width: 760px;
+    width: 570px;
     height: 55px;
-    left: 65px;
-    top: 427px;
+    left: 0;
+    top: 350px;
     box-sizing: border-box;
     display: block;
     outline: 0;
@@ -86,14 +84,22 @@ input[type=text] {
     padding-left: 59px;
     font-size: 18px;
     line-height: 22px;
+}
+
+.icon-image-user {
+    position: absolute;
+    left: 20px;
+    top: 377px;
+    transform: translateY(-50%);
+    z-index: 1;
 }
 
 input[type=password] {
     position: absolute;
-    width: 760px;
+    width: 570px;
     height: 55px;
-    left: 65px;
-    top: 500px;
+    left: 0;
+    top: 425px;
     box-sizing: border-box;
     display: block;
     outline: 0;
@@ -103,21 +109,29 @@ input[type=password] {
     line-height: 22px;
 }
 
+.icon-image-password {
+    position: absolute;
+    left: 20px;
+    top: 450px;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
 input[type=submit] {
     position: absolute;
-    width: 760px;
+    width: 570px;
     height: 55px;
-    left: 65px;
-    top: 590px;
+    left: 0;
+    top: 525px;
     box-sizing: border-box;
     display: block;
-    outline: 0;
     border-radius: 10px;
     padding-left: 59px;
-    background-color: #C32270;
-    color: white;
     font-size: 18px;
     line-height: 22px;
+    background-color: #C32270;
+    color: white;
+    font-weight: bold;
 }
 
 input[type=submit]:hover {
@@ -129,42 +143,21 @@ input[type=submit]:hover {
     position: absolute;
     width: 141px;
     height: 23px;
-    left: 350px;
-    top: 660px;
+    left: 240px;
+    top: 600px;
     font-size: 18px;
     line-height: 22px;
     color: black;
-}
-
-.input-container {
-    position: relative;
-}
-
-.icon-image-user {
-    position: absolute;
-    left: 80px;
-    top: 452px;
-    transform: translateY(-50%);
-    z-index: 1;
-}
-
-.icon-image-password {
-    position: absolute;
-    left: 80px;
-    top: 527px;
-    transform: translateY(-50%);
-    z-index: 1;
 }
 
 .registerAccount {
     position: absolute;
     width: 141px;
     height: 23px;
-    left: 500px;
-    top: 660px;
+    left: 270px;
+    top: 630px;
     font-size: 18px;
     line-height: 22px;
-    text-decoration: none;
     color: black;
 }
 
@@ -172,5 +165,3 @@ input[type=submit]:hover {
     width: 185px;
     height: 38px;
 }
-
-
