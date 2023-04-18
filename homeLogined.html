@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
-    <section class="myheader bg-light border-bottom">
+    <section class="myheader bg-light border-bottom" id="myheader">
         <div class="container">
             <div class="header d-flex flex-md-row align-items-center">
                 <div class="flex-grow-1 py-3">
@@ -324,5 +324,18 @@
             }
         }, 5000);
     </script>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        var header = document.getElementById("myheader");
+        var sticky = header.offsetTop;
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
 </body>
 </html>
