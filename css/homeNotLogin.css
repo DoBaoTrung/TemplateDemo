@@ -176,23 +176,26 @@ body {
     font-size: 25px;
     font-weight: 700;
     line-height: 31px;
-    margin-top: -75px;
+    margin-top: 225px;
     text-align: center;
 }
 
-.image17 {
-    margin-top: -353.5px;
-    margin-bottom: -53px;
-    margin-left: -11.3px;
-    width: 255px;
-    height: 100%;
+.row {
+    display: flex;
 }
 
-.image18 {
+.col {
+    flex: 1;
     position: relative;
-    width: 255px;
-    margin-left: -11.3px;
+}
+
+.image18, .image17 {
+    position: absolute;
+    width: 100%;
     height: 100%;
+    margin-left: -12px;
+    object-fit: cover;
+    opacity: 0.7;
 }
 
 .myfooter .container-fluid {
@@ -299,5 +302,18 @@ ul {
     margin-left: -25px;
 }
 
+.seminar {
+    display: flex;;
+    width: 200px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.order {
+    display: flex;
+    width: 200px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
 
 
