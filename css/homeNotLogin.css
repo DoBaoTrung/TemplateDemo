@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 * {
     font-family: 'Quicksand', sans-serif;
-  }
-body {
-    background: #E5E5E5;
 }
 
-.container {
-    max-width: 1500px;
+body {
+    background: #E5E5E5;
 }
 
 .header .ms-md-auto > a.header-login {
@@ -23,8 +20,8 @@ body {
 
 .slider {
     position: relative;
-    width: 1474px;
-    height: 502x;
+    width: 1320px;
+    height: 502px;
     margin-left: -100px;
     overflow: hidden;
     margin: 0 auto;
@@ -46,13 +43,13 @@ body {
 }
 
 .slide img {
-    width: 1474px;
+    width: 1320px;
     height: 502px;
 }
 
 .navigation-manual {
     position: absolute;
-    width: 1485px;
+    width: 1320px;
     margin-top: -60px;
     display: flex;
     justify-content: center;
@@ -93,7 +90,7 @@ body {
 .navigation-auto {
     position: absolute;
     display: flex;
-    width: 1485px;
+    width: 1320px;
     justify-content: center;
     margin-top: 443px;
 }
@@ -126,13 +123,6 @@ body {
     background: #C32270;
 }
 
-/* .auto-btn-other {
-    margin-top: 50px;
-    width: 24px;
-    height: 13px;
-    border-radius: 0;
-} */
-
 .text-slideshow h1{
     font-size: 50px;
     font-weight: 700;
@@ -156,65 +146,6 @@ body {
     width: 450px;
 }
 
-/* .gridImageShow {
-    display: flex;
-    font-size: 0;
-    position: relative;
-}
-
-.gridImage {
-    margin-left: 131px;
-    justify-content: center ;
-}
-
-.gridImage .grid1 {
-    width: 356.25px;
-    height: 350px;
-}
-
-.gridImage .grid2 {
-    width: 356.25px;
-    height: 350px;
-}
-
-.gridImage .grid3 {
-    width: 356.25px;
-    height: 350px;
-}
-
-.gridImage .grid4 {
-    width: 356.25px;
-    height: 350px;
-}
-
-.gridImage2 {
-    position: absolute;
-}
-
-.gridImage2 .grid5 {
-    width: 143px;
-
-}
-
-.gridImage2 .grid6 {
-    width: 143px;
-
-}
-
-.gridImage2 .grid7 {
-    width: 143px;
-
-}
-
-.gridImage2 .grid8 {
-    width: 143px;
-
-} */
-
-.banner .container {
-    max-width: 1475px;
-}
-
 .banner .container .col-md-3{
     height: 350px;
 }
@@ -225,18 +156,18 @@ body {
 }
 
 .image16 {
+    display: flex;;
     width: 200px;
-    margin-left: 42px;
+    margin-left: 25px;
     margin-top: 30px;
 }
 
 .study {
-    font-weight: bolder;
     font-size: 25px;
     line-height: 31px;
     color: #C32270;
     margin-top: 30px;
-    margin-left: 80px;
+    text-align: center;
 }
 
 .lorem {
@@ -250,16 +181,18 @@ body {
 }
 
 .image17 {
-    margin-top: -357px;
+    margin-top: -353.5px;
     margin-bottom: -53px;
     margin-left: -11.3px;
-    width: 290px;
+    width: 255px;
+    height: 100%;
 }
 
 .image18 {
     position: relative;
+    width: 255px;
     margin-left: -11.3px;
-    width: 290px;
+    height: 100%;
 }
 
 .myfooter .container-fluid {

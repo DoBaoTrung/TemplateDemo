@@ -43,16 +43,16 @@ function check() {
     var loginid = document.getElementById('login_id');
     var password = document.getElementById('user_password');
 
-    if ((loginid.value != 0  && password.value == storedPassword) || (loginid.value == storeTel && password.value == storedPassword)) {
+    if ((loginid.value == storedEmail  && password.value == storedPassword) || (loginid.value == storeTel && password.value == storedPassword)) {
         alert('Đăng nhập thành công');
-        window.location.href = "homeLogined.html";
+        window.location.href = "https://www.youtube.com/";
     } else if (loginid.value.length == 0 && password.value.length == 0) {
         alert('Vui lòng nhập đầy đủ');
     } else if (loginid.value.length == 0) {
         alert('Vui lòng nhập tài khoản');
     } else if (password.value.length == 0) {
         alert('Vui lòng nhập mật khẩu');
-    } else if (loginid.value != storedEmail && password != storedPassword || loginid != storeTel && password != storedPassword) {
+    } else if (loginid.value != storedEmail || password.value != storedPassword || loginid.value != storeTel) {
         alert('Đăng nhập thất bại');
     }
 }
