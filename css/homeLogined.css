@@ -318,6 +318,8 @@ ul {
     position: relative;
 }
 
+
+
 .item1 .computer {
     position: absolute;
     top: 0;
@@ -325,6 +327,7 @@ ul {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    opacity: 0.5;
 }
 
 .item1 .shadow {
@@ -345,11 +348,11 @@ ul {
 .item3 {
     grid-area: 2 / 1 / 3 / 2;
     background-color: #eaabc1;
+    position: relative;
 }
 
 .item4 {
     grid-area: 2 / 2 / 3 / 3;
-    background-color: rgb(214, 163, 85);
     position: relative;
 }
 
@@ -360,6 +363,7 @@ ul {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    opacity: 0.5;
 }
 
 .item4 .shadow {
@@ -390,7 +394,22 @@ ul {
     text-align: start;
 }
 
+.lorem {
+    position: absolute;
+    width: 50px;
+    color: #C32270;
+    margin-left: -180px;
+    margin-top: -180px;
+    text-align: start;
+}
+
 .custom-study {
+    margin-top: 70px;
+    line-height: 65px;
+}
+
+.custom-lorem {
+    color: white;
     margin-top: 70px;
     line-height: 65px;
 }
@@ -401,7 +420,22 @@ ul {
     color: black;
 }
 
+.text-lorem {
+    font-size: 15px;
+    line-height: 19px;
+    color: white;
+}
+
 .item2 .study .row {
+    width: 400px;
+}
+
+.item1 .lorem .row {
+    width: 400px;
+}
+
+
+.item4 .lorem .row {
     width: 400px;
 }
 
