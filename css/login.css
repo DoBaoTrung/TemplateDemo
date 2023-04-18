@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
-html, body {
+* {
+    font-family: 'Quicksand', 'sans-serif';
+}
+body {
     width: 100%;
     height: 100%;
 }
@@ -34,10 +37,10 @@ html, body {
     height: 1024px;
     left: 825px;
     top: 0px;
-    background: #f7eded;
+    background: white;
 }
 
-.login-right-side .login-back > a{
+.login-right-side .login-back > a {
     position: absolute;
     text-decoration: none;
     left: 4%;
@@ -46,9 +49,12 @@ html, body {
     bottom: 8.33%;
     color: #C32270;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
+    font-weight: 900;
     line-height: 25px;
+}
+
+.login-right-side .login-back > a:hover {
+    color: steelblue;
 }
 
 .login-right-side .title-login {
@@ -61,16 +67,10 @@ html, body {
 
 .title-text-login {
     position: absolute;
-    font-weight: 500;
     font-size: 18px;
     margin-top: 20px;
     margin-left: 70px;
 }
-
-/* .input-login {
-    position: relative;
-    display: flex;
-} */
 
 input[type=text] {
     position: absolute;
@@ -83,8 +83,6 @@ input[type=text] {
     outline: 0;
     border-radius: 10px;
     padding-left: 59px;
-    font-style: normal;
-    /* font-weight: 500; */
     font-size: 18px;
     line-height: 22px;
 }
@@ -100,8 +98,6 @@ input[type=password] {
     outline: 0;
     border-radius: 10px;
     padding-left: 59px;
-    font-style: normal;
-    /* font-weight: 500; */
     font-size: 18px;
     line-height: 22px;
 }
@@ -119,10 +115,13 @@ input[type=submit] {
     padding-left: 59px;
     background-color: #C32270;
     color: white;
-    font-style: normal;
-    font-weight: 500;
     font-size: 18px;
     line-height: 22px;
+}
+
+input[type=submit]:hover {
+    color: steelblue;
+    background-color: pink;
 }
 
 .forgetPassword {
@@ -131,11 +130,8 @@ input[type=submit] {
     height: 23px;
     left: 350px;
     top: 660px;
-    font-style: normal;
-    font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    text-decoration: none;
     color: black;
 }
 
@@ -165,8 +161,6 @@ input[type=submit] {
     height: 23px;
     left: 500px;
     top: 660px;
-    font-style: normal;
-    font-weight: 500;
     font-size: 18px;
     line-height: 22px;
     text-decoration: none;

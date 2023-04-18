@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
-html, body {
+* {
+    font-family: 'Quicksand', 'sans-serif';
+}
+body {
     width: 100%;
     height: 100%;
 }
 
-.login-form .login-left-side .image1 {
+.register-form .register-left-side .image1 {
     position: absolute;
     width: 1440px;
     height: 1024px;
@@ -12,7 +15,7 @@ html, body {
     top: 0px;
 }
 
-.login-form .login-left-side .image2 {
+.register-form .register-left-side .image2 {
     position: absolute;
     width: 1440px;
     height: 1024px;
@@ -20,7 +23,7 @@ html, body {
     top: 0px;
 }
 
-.login-form .login-left-side .image4 {
+.register-form .register-left-side .image4 {
     position: absolute;
     width: 432px;
     height: 105px;
@@ -28,16 +31,16 @@ html, body {
     top: 47%;
 }
 
-.login-form .login-right-side {
+.register-form .register-right-side {
     position: absolute;
     width: 863px;
     height: 1024px;
     left: 825px;
     top: 0px;
-    background: #f7eded;
+    background: white;
 }
 
-.login-right-side .login-back > a{
+.register-right-side .register-back > a {
     position: absolute;
     text-decoration: none;
     left: 4%;
@@ -46,12 +49,14 @@ html, body {
     bottom: 8.33%;
     color: #C32270;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
     line-height: 25px;
 }
 
-.login-right-side .title-login {
+.register-right-side .register-back > a:hover {
+    color: steelblue;
+}
+
+.register-right-side .title-register {
     position: absolute;
     width: 428px;
     height: 104px;
@@ -59,9 +64,8 @@ html, body {
     top: 194px;
 }
 
-.title-text-login {
+.title-text-register {
     position: absolute;
-    font-weight: 500;
     font-size: 18px;
     margin-top: 20px;
     margin-left: 70px;
@@ -78,8 +82,6 @@ html, body {
     outline: 0;
     border-radius: 10px;
     padding-left: 59px;
-    font-style: normal;
-    /* font-weight: 500; */
     font-size: 18px;
     line-height: 22px;
 }
@@ -95,8 +97,21 @@ html, body {
     outline: 0;
     border-radius: 10px;
     padding-left: 59px;
-    font-style: normal;
-    /* font-weight: 500; */
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.email input[type=email] {
+    position: absolute;
+    width: 760px;
+    height: 55px;
+    left: 65px;
+    top: 500px;
+    box-sizing: border-box;
+    display: block;
+    outline: 0;
+    border-radius: 10px;
+    padding-left: 59px;
     font-size: 18px;
     line-height: 22px;
 }
@@ -112,8 +127,6 @@ html, body {
     outline: 0;
     border-radius: 10px;
     padding-left: 59px;
-    font-style: normal;
-    /* font-weight: 500; */
     font-size: 18px;
     line-height: 22px;
 }
@@ -129,8 +142,6 @@ html, body {
     outline: 0;
     border-radius: 10px;
     padding-left: 59px;
-    font-style: normal;
-    /* font-weight: 500; */
     font-size: 18px;
     line-height: 22px;
 }
@@ -146,8 +157,6 @@ html, body {
     outline: 0;
     border-radius: 10px;
     padding-left: 59px;
-    font-style: normal;
-    /* font-weight: 500; */
     font-size: 18px;
     line-height: 22px;
 }
@@ -165,10 +174,13 @@ input[type=submit] {
     padding-left: 59px;
     background-color: #C32270;
     color: white;
-    font-style: normal;
-    font-weight: 500;
     font-size: 18px;
     line-height: 22px;
+}
+
+input[type=submit]:hover {
+    color: steelblue;
+    background-color: pink;
 }
 
 .forgetPassword {
@@ -243,7 +255,7 @@ input[type=submit] {
     color: black;
 }
 
-.login-back > a{
+.register-back > a{
     width: 185px;
     height: 38px;
 }
